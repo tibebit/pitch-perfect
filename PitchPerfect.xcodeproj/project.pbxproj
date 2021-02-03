@@ -15,6 +15,7 @@
 		CD31007B25B57F5F00CC09AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD31007925B57F5F00CC09AD /* LaunchScreen.storyboard */; };
 		CD31008625B57F5F00CC09AD /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31008525B57F5F00CC09AD /* PitchPerfectTests.swift */; };
 		CD31009125B57F5F00CC09AD /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31009025B57F5F00CC09AD /* PitchPerfectUITests.swift */; };
+		CD65A85425CABEBA00063142 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65A85325CABEBA00063142 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD31008C25B57F5F00CC09AD /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD31009025B57F5F00CC09AD /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		CD31009225B57F5F00CC09AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD65A85325CABEBA00063142 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CD31007725B57F5F00CC09AD /* Assets.xcassets */,
 				CD31007925B57F5F00CC09AD /* LaunchScreen.storyboard */,
 				CD31007C25B57F5F00CC09AD /* Info.plist */,
+				CD65A85325CABEBA00063142 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				CD31007325B57F5C00CC09AD /* RecordSoundsViewController.swift in Sources */,
 				CD31006F25B57F5C00CC09AD /* AppDelegate.swift in Sources */,
+				CD65A85425CABEBA00063142 /* PlaySoundsViewController.swift in Sources */,
 				CD31007125B57F5C00CC09AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
