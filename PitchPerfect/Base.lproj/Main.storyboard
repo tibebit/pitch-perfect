@@ -71,8 +71,24 @@
                     <view key="view" contentMode="scaleToFill" id="Npi-AR-weO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fod-0y-dmo">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LBQ-w5-k2a">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PNw-SI-apm"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PNw-SI-apm" firstAttribute="bottom" secondItem="fod-0y-dmo" secondAttribute="bottom" id="Jd8-DC-Kmc"/>
+                            <constraint firstItem="PNw-SI-apm" firstAttribute="trailing" secondItem="fod-0y-dmo" secondAttribute="trailing" id="SiD-uS-71c"/>
+                            <constraint firstItem="fod-0y-dmo" firstAttribute="leading" secondItem="PNw-SI-apm" secondAttribute="leading" id="Yaz-uQ-Pgs"/>
+                            <constraint firstItem="fod-0y-dmo" firstAttribute="top" secondItem="PNw-SI-apm" secondAttribute="top" id="xZd-pT-afs"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tT2-rW-mtG"/>
                 </viewController>
